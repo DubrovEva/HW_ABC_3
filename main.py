@@ -23,7 +23,7 @@ if __name__ == '__main__':
     print('Start ==>')
 
     container = Container()
-    figNum = container.ReadStrArray(values)
+    container.ReadStrArray(values)
     container.Sort()
 
     ofile = open(outputFileName, 'w')
