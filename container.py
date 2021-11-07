@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------
 # container.h - содержит тип данных, представляющий простейший контейнер
 # ------------------------------------------------------------------------------
-from squarematrix    import *
+
 from diagonalmatrix import DiagonalMatrix
 from regulararray import RegularArray
 from lowertriangularmatrix import LowerTriangularMatrix
