@@ -31,8 +31,8 @@ class Container:
     # Вывод содержимого контейнера
     def Print(self):
         print("Container is store", len(self.store), "matricies:")
-        for shape in self.store:
-            shape.Print()
+        for matrix in self.store:
+            matrix.Print()
 
     # Вывод содержимого контейнера в указанный поток
     def Write(self, ostream):
