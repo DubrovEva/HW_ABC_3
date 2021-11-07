@@ -36,7 +36,7 @@ class Container:
 
     # Вывод содержимого контейнера в указанный поток
     def Write(self, ostream):
-        ostream.write("Container is store {} shapes:\n".format(len(self.store)))
+        ostream.write("Container is store {} matricies:\n".format(len(self.store)))
         for matrix in self.store:
             matrix.Write(ostream)
             ostream.write("\n")
